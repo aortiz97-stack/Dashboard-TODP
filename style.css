@@ -7,8 +7,26 @@ body{
 }
 
 .side-board{
-    background-color: red;
+    background-color: #3b5998;
     grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.side-board div{
+    margin-top: 10px;
+}
+.logo{
+    background-color: orange;
+}
+
+.main-nav{
+    background-color: pink;
+}
+
+.settings-nav{
+    background-color: indigo;
 }
 
 .header{
