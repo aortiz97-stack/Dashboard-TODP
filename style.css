@@ -19,6 +19,17 @@ body{
 }
 .logo{
     background-color: orange;
+    display: flex;
+    gap: 5px;
+}
+
+.logo img{
+    flex-grow: 1;
+}
+
+.logo h2{
+    align-self: center;
+    margin-right: 5px;
 }
 
 .main-nav{
