@@ -36,6 +36,18 @@ body{
     background-color: pink;
 }
 
+ul li{
+    list-style: none;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.nav-link img{
+    
+}
+
 .settings-nav{
     background-color: indigo;
 }
