@@ -33,7 +33,9 @@ body{
     /*grid-template-rows: 50px 50px repeat(6,25px) 50px repeat(3, 50px);*/
 }
 
-
+a{
+    text-decoration: none;
+}
 
 .main-nav{
     background-color: pink;
