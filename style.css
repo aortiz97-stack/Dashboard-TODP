@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+    margin: 0;
+}
+
+.side-board{
+    background-color: red;
+    grid-row: 1 / -1;
+}
+
+.header{
+    background-color: green;
+}
+
+.body{
+    background-color: blue;
+}
