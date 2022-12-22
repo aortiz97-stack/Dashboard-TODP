@@ -43,7 +43,6 @@ a:visited{
 .header{
     display: flex;
     flex-direction: column;
-    background-color: pink;
     height: 100%;
     font-family: sans-serif;
     color: black;
@@ -51,8 +50,11 @@ a:visited{
 }
 
 .header .top{
-    background-color: lime;
-    flex-grow: 1;
+    display: flex;
+}
+
+.header .top img{
+    max-width: 100%;
 }
 
 .header .bottom{
