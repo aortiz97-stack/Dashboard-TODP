@@ -45,11 +45,15 @@ a:visited{
     display: flex;
     flex-direction: column;
     height: 100%;
-    color: black;
-    
+    color: black;  
+}
+
+.header p{
+    font-size: 0.75rem;
 }
 
 .header .top{
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,6 +65,7 @@ a:visited{
 
 .search-bar{
     flex-grow: 1;
+    padding-left: 10px;
     display: flex;
     align-items: center;
 }
@@ -80,8 +85,30 @@ a:visited{
 }
 
 .header .bottom{
-    background-color: indigo;
     flex-grow: 1;
+}
+
+.bottom-left{
+    display: flex;
+}
+
+.bottom-left h4, .bottom-left p{
+    margin: 0;
+}
+
+.bottom-left h4{
+    font-weight: bold;
+}
+
+.img-container{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-left img{
+    width: 75%;
 }
 
 .body{
