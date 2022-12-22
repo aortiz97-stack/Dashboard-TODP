@@ -65,8 +65,9 @@ a:visited{
 
 .search-bar{
     flex-grow: 1;
-    padding-left: 10px;
+    margin-left: 15px;
     display: flex;
+    gap: 10px;
     align-items: center;
 }
 
@@ -86,10 +87,15 @@ a:visited{
 
 .header .bottom{
     flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .bottom-left{
     display: flex;
+    margin-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
 }
 
 .bottom-left h4, .bottom-left p{
@@ -101,14 +107,31 @@ a:visited{
 }
 
 .img-container{
-    width: 5%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .bottom-left img{
-    width: 75%;
+    min-width: 75%;
+}
+
+.bottom-right{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 40px;
+}
+
+.bottom-right button{
+    border-radius: 20px;
+    color: white;
+    background-color: #3b5998;
+    height: 2.25rem;
+    width: 5.0rem;
 }
 
 .body{
