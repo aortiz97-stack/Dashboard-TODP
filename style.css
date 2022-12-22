@@ -91,6 +91,10 @@ a:visited{
     justify-content: space-between;
 }
 
+a h4,  a p{
+    color: black;
+}
+
 .bottom-left{
     display: flex;
     margin-left: 15px;
