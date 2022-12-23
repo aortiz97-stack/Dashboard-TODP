@@ -220,3 +220,11 @@ a h4,  a p{
     gap: 10px;
 }
 
+.announcements-container{
+    padding: 10px;
+}
+
+.announcements{
+    background: white;
+}
+
