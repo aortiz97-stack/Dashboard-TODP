@@ -33,7 +33,7 @@ h4{
     display: grid;
     row-gap: 20px;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 0.33fr 0.33fr repeat(6, minmax(0,0.33fr)) 0.33fr repeat(3, minmax(0,0.33fr)) 5fr;
+    grid-template-rows: 0.2fr 0.2fr repeat(6, minmax(0,0.2fr)) 0.2fr repeat(3, minmax(0,0.2fr)) 5fr;
     align-items: center;
 }
 
@@ -221,10 +221,12 @@ a h4,  a p{
 }
 
 .announcements-container{
-    padding: 10px;
+    padding: 15px;
 }
 
 .announcements{
+    padding: 15px;
+    border-radius: 25px;
     background: white;
 }
 
