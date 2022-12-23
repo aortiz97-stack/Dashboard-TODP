@@ -45,7 +45,10 @@ a:visited{
     display: flex;
     flex-direction: column;
     height: 100%;
-    color: black;  
+}
+
+.header, .body{
+    color: black;
 }
 
 .header p{
@@ -139,5 +142,43 @@ a h4,  a p{
 }
 
 .body{
+    background-color: #D3D3D3;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr 5fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-title{
+    background-color: pink;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.grid-container{
+    grid-row: 2 / -1;
+    grid-column: 1 / 2;
+    background-color: yellow;
+}
+
+.announcements-container{
+    grid-row: 2 / 3;
+    grid-column: 2 / -1;
+    background-color: purple;
+}
+
+.trending-title{
+    grid-row: 3 / 4;
+    grid-column: 2 / -1;
+    background-color: red;
+}
+
+.trending-container{
+    grid-row: 4 / -1;
+    grid-column: 2 / -1;
     background-color: blue;
 }
+
