@@ -194,18 +194,45 @@ a h4,  a p{
 .announcements-container{
     grid-row: 2 / 3;
     grid-column: 2 / -1;
+    padding: 15px;
+}
+
+.announcements{
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+}
+
+.announcements h4{
+    margin-bottom: 10px;
 }
 
 .trending-title{
     grid-row: 3 / 4;
     grid-column: 2 / -1;
-    background-color: red;
+    padding: 15px;
+    padding-bottom: 0;
+    align-self: end;
 }
 
 .trending-container{
     grid-row: 4 / -1;
     grid-column: 2 / -1;
-    background-color: blue;
+    padding: 15px;
+}
+
+.trending{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.other-profile{
+    display: flex;
+    gap: 5px;
 }
 
 .card-container{
@@ -240,19 +267,5 @@ a h4,  a p{
     align-items: flex-end;
     justify-content: flex-end;
     gap: 10px;
-}
-
-.announcements-container{
-    padding: 15px;
-}
-
-.announcements{
-    padding: 25px;
-    border-radius: 15px;
-    background: white;
-}
-
-.announcements h4{
-    margin-bottom: 10px;
 }
 
