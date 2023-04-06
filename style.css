@@ -34,7 +34,7 @@ h4, p{
 
 
 
-.side-board{
+aside {
     background-color: #3b5998;
     height: 100%;
     grid-row: 1 / -1;
