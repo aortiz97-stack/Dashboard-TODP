@@ -23,12 +23,12 @@ body{
     margin: 0;
 }
 
-h4{
+h2{
     font-weight: bolder;
     font-family: Roboto-bold, sans-serif;
 }
 
-h4, p{
+h2, p{
     margin: 0;
 }
 
@@ -109,7 +109,7 @@ header .bottom{
     padding: 15px;
 }
 
-a h4,  a p{
+a h2,  a p{
     color: black;
 }
 
@@ -123,11 +123,11 @@ a, a:visited {
     gap: 10px;
 }
 
-.bottom-left h4, .bottom-left p{
+.bottom-left h2, .bottom-left p{
     margin: 0;
 }
 
-.bottom-left h4{
+.bottom-left h2{
     font-weight: bold;
 }
 
@@ -207,7 +207,7 @@ main {
     background: white;
 }
 
-.announcements h4{
+.announcements h2{
     margin-bottom: 10px;
 }
 
@@ -247,7 +247,7 @@ main {
     grid-template-rows: 2fr 1fr;
 }
 
-.card-container h4{
+.card-container h2 {
     margin-bottom: 10px;
 }
 
