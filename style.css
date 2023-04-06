@@ -55,21 +55,21 @@ a:visited{
     color: white;
 }
 
-.header{
+header{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.header, .body{
+header, .body{
     color: black;
 }
 
-.header p{
+header p{
     font-size: 0.75rem;
 }
 
-.header .top{
+header .top{
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -77,7 +77,7 @@ a:visited{
     padding-left: 15px;
 }
 
-.header .top img{
+header .top img{
     max-width: 100%;
 }
 
@@ -102,7 +102,7 @@ a:visited{
 
 }
 
-.header .bottom{
+header .bottom{
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
