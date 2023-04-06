@@ -61,7 +61,7 @@ header{
     height: 100%;
 }
 
-header, .body{
+header, main {
     color: black;
 }
 
@@ -159,7 +159,7 @@ a, a:visited {
     width: 5.0rem;
 }
 
-.body{
+main {
     background-color: #D3D3D3;
     display: grid;
     grid-template-rows: 1fr 8fr 1fr 8fr;
