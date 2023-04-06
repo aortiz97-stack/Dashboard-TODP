@@ -17,8 +17,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
-    /*min-width: 0;
-    min-height: 0;*/
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -37,7 +35,6 @@ h2, p {
 
 aside {
     background-color: #3b5998;
-    /*height: 100%;*/
     grid-row: 1 / -1;
     padding-left: 5px;
     padding-right: 5px;
@@ -59,7 +56,6 @@ a:visited{
 header{
     display: flex;
     flex-direction: column;
-    /*height: 100%;*/
 }
 
 header, main {
@@ -133,16 +129,10 @@ a, a:visited {
 }
 
 .img-container{
-    /*width: 30%;*/
     max-width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-.bottom-left img{
-    /*min-width: 75%;*/
 }
 
 .bottom-right{
@@ -157,8 +147,6 @@ a, a:visited {
     border-radius: 20px;
     color: white;
     background-color: #3b5998;
-    /*height: 2.25rem;
-    width: 5.0rem;*/
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
